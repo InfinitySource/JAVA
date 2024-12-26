@@ -1,8 +1,8 @@
 // import java.util.regex.Pattern;
-import Patterns.SquarePattern;
-import Patterns.CounterPatterns;
-import Patterns.LeftHalfPyramid;
-import Patterns.RightHalfPyramid;
+import AllPatternsMethods.CounterPatterns;
+import AllPatternsMethods.LeftHalfPyramid;
+import AllPatternsMethods.RightHalfPyramid;
+import AllPatternsMethods.SquarePattern;
 
 
 public class Main {

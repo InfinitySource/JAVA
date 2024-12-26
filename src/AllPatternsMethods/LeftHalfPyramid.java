@@ -1,4 +1,4 @@
-package Patterns;
+package AllPatternsMethods;
 
 public class LeftHalfPyramid {
     
