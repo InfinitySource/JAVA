@@ -94,7 +94,7 @@ public class Main {
             // CounterPatterns.CounterPattern20(5);
             // CounterPatterns.CounterPattern21(5);
             // CounterPatterns.CounterPattern22(5);
-            CounterPatterns.CounterPattern23(5);
+            // CounterPatterns.CounterPattern23(5);
 
 
         
