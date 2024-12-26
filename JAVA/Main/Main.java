@@ -10,7 +10,7 @@ public class Main {
 
         // SquarePatterns
 
-    //    SquarePattern.SquareStar(5);
+       SquarePattern.SquareStar(5);
     //    SquarePattern.SquareDash(5);
     //    SquarePattern.SquareNumber(5);
     //    SquarePattern.SquareNumberReverse(5);
