@@ -4,6 +4,8 @@ import AllPatternsMethods.SquarePattern;
 import AllPatternsMethods.CounterPatterns;
 import AllPatternsMethods.LeftHalfPyramid;
 import AllPatternsMethods.RightHalfPyramid;
+import AllPatternsMethods.ReverseRightHalfPyramid;
+import AllPatternsMethods.ReverseLeftHalfPyramid;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,20 +39,55 @@ public class Main {
         // RightHalfPyramid.RightHalfCapitalLetterEEDPyramid(5);
 
         // Reverse Right Half
-        // RightHalfPyramid.ReverseRightHalfStarPyramid(5);
-        // RightHalfPyramid.ReverseRightHalfNumberPyramid(5);
-        // RightHalfPyramid.ReverseRightHalfNumberFromFivePyramid(5);
-        // RightHalfPyramid.ReverseRightHalfNumberOneTowThreeInColPyramid(5);
-        // RightHalfPyramid.ReverseRightHalfNumberOneTowThreeInRowPyramid(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfStarPyramid(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfNumberPyramid(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfNumberFromFivePyramid(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfNumberOneTowThreeInColPyramid(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfNumberOneTowThreeInRowPyramid(5);
 
         // RightHalfPyramid.SpaceProb(5);
         // RightHalfPyramid.OneTwoThree(5);
+
+
 
         // Left Half Pyramid
 
         // LeftHalfPyramid.LeftHalfStarPyramid(5);
         // LeftHalfPyramid.ReverseLeftHalfStarPyramid(5);
+        
+        
+        // Left Half Pyramid Capital Char
+        
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar1(5);
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar2(5);
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar3(5);
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar4(5);
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar5(5);
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar6(5);
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar7(5);
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar8(5);
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar9(5);
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar10(5);
+        // LeftHalfPyramid.LeftHalfPyramidCapitalChar11(5);
+        
+        // Reverse Left Half Pyramid Capital Char
+        
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidStar(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar1(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar2(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar3(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyrzamidCapitalChar4(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar5(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar6(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar7(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar8(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar9(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar10(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar11(5);
+        ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar12(5);
+        
 
+        
         // Counter Patterns
 
         // RightHalfNumberPyramid
@@ -69,6 +106,7 @@ public class Main {
         // CounterPatterns.CounterPattern12(5);
 
         // ReverseRightHalfPyramid
+
         // CounterPatterns.CounterPattern13(5);
         // CounterPatterns.CounterPattern14(5);
         // CounterPatterns.CounterPattern15(5);
@@ -82,6 +120,7 @@ public class Main {
         // CounterPatterns.CounterPattern23(5);
 
         // Reverse Left Half Pyramid
+
         // CounterPatterns.CounterPattern24(5);
         // CounterPatterns.CounterPattern25(5);
         // CounterPatterns.CounterPattern26(5);
@@ -102,7 +141,32 @@ public class Main {
         // CounterPatterns.CounterPattern40(5);
         // CounterPatterns.CounterPattern41(5);
         // CounterPatterns.CounterPattern42(5);
-        CounterPatterns.CounterPattern43(5);
+        // CounterPatterns.CounterPattern43(5);
+
+
+
+        // Reverse Left Half Pyramid Capital Char
+
+        // ReverseRightHalfPyramid.ReverseRightHalfStarPyramid(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar1(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar2(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar3(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar4(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar5(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar6(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar7(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar8(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar9(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar10(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar11(5);
+        // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar12(5);
+
+
+
+
+
+
+
         
     }
 }
