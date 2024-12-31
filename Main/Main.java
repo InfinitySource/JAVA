@@ -176,7 +176,8 @@ public class Main {
         
         // Prog1.IfelseForAB(10, 20);
         // Prog1.IfelseForABC(100,400, 534);
-        Prog1.IfelseForABCD(12340,1233, 28736, 310);
+        // Prog1.IfelseForABCD(12340,1233, 28736, 310);
+        Prog1.IfelseForABCDE(45,1, 32, 43, 65);
         
 
 
