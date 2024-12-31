@@ -50,7 +50,7 @@ public class SquarePattern{
             for(int col = 1 ; col <= n ; col++){
                 System.out.print(row + " ");
             }
-            System.out.print("*");
+            System.out.println();
         }
         
     }

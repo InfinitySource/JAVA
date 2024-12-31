@@ -1,11 +1,16 @@
 
 // import java.util.regex.Pattern;
 import AllPatternsMethods.SquarePattern;
+import If_else_nested_if_else.Program1;
 import AllPatternsMethods.CounterPatterns;
 import AllPatternsMethods.LeftHalfPyramid;
 import AllPatternsMethods.RightHalfPyramid;
 import AllPatternsMethods.ReverseRightHalfPyramid;
 import AllPatternsMethods.ReverseLeftHalfPyramid;
+import TernaryOperator.Prog1;
+
+// import AllPatternsMethods.SquarePatterns
+
 
 public class Main {
     public static void main(String[] args) {
@@ -84,7 +89,7 @@ public class Main {
         // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar9(5);
         // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar10(5);
         // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar11(5);
-        ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar12(5);
+        // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar12(5);
         
 
         
@@ -162,6 +167,17 @@ public class Main {
         // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar12(5);
 
 
+
+
+        //If else 
+
+
+        //Ternary Operator
+        
+        // Prog1.IfelseForAB(10, 20);
+        // Prog1.IfelseForABC(100,400, 534);
+        Prog1.IfelseForABCD(12340,1233, 28736, 310);
+        
 
 
 
