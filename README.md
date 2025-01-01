@@ -32,3 +32,17 @@ Link : [code](https://github.com/InfiniteCoderX/JAVA/blob/e44d1d000480994213aae9
 
 ![java4](https://github.com/user-attachments/assets/59273e5d-f46b-4951-95f6-a834c965d537)
 ![java5](https://github.com/user-attachments/assets/2660c2f9-c2b0-450d-8519-d4df89208539)
+
+
+## If Else With Pattern
+
+### Que 1 -
+12345 <br>
+12344 <br>
+12333 <br>
+12222 <br>
+11111 <br>
+
+Link - [Code](https://github.com/InfiniteCoderX/JAVA/blob/c3f05530ac170d96e8a2669341e7437ff069ca44/ControlStructure/TernaryOperator/Prog1.java#L45) 
+
+
