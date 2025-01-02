@@ -36,29 +36,6 @@ public class Prog1{
     }
 
 
-    // 12345
-    // 12344
-    // 12333
-    // 12222
-    // 11111
     
-    public static void ConditionQue1(int n){
-        
-        for(int i = 0; i < n; i++){
-            for(int j = 1; j <= n; j++){
-
-                if(j > n - i){
-
-                    int lastN = j - (n - i);
-                    
-                    System.out.print(j - lastN);
-                }else{
-                    System.out.print(j);
-                }
-            }
-            System.out.println();
-        }
-
-    }
     
 }

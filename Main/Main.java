@@ -8,6 +8,7 @@ import AllPatternsMethods.RightHalfPyramid;
 import AllPatternsMethods.ReverseRightHalfPyramid;
 import AllPatternsMethods.ReverseLeftHalfPyramid;
 import TernaryOperator.Prog1;
+import ConditionalPatterns.ConditionPatterns;
 
 // import AllPatternsMethods.SquarePatterns
 
@@ -180,12 +181,15 @@ public class Main {
         // Prog1.IfelseForABCDE(45,1, 32, 43, 65);
         
         // HW que
-        Prog1.ConditionQue1(10);
-        
-
-
-        // System.out.print((5) - (5 - 1));
-
+        // ConditionPatterns.ConditionQueHW(5);
+        // ConditionPatterns.ConditionQue1(5);
+        // ConditionPatterns.ConditionQue2(5);
+        // ConditionPatterns.ConditionQue3(5);
+        // ConditionPatterns.ConditionQue4(5);
+        // ConditionPatterns.ConditionQue5(5);
+        // ConditionPatterns.ConditionQue6(5);
+        // ConditionPatterns.ConditionQue7(5);
+        ConditionPatterns.ConditionQue8(5);
 
 
 
