@@ -37,6 +37,26 @@ Link - [code](https://github.com/InfinitySource/JAVA/blob/e44d1d000480994213aae9
 ![java5](https://github.com/user-attachments/assets/2660c2f9-c2b0-450d-8519-d4df89208539)
 
 
+### Reverse Right Half Pyramid Capital Char
+
+Link - [code](https://github.com/InfinitySource/JAVA/blob/5843fdc3783264c91e899d4a463fdcbb0c414ddf/AllPatternsProblems/src/AllPatternsMethods/ReverseRightHalfPyramid.java#L80)
+
+![java7](https://github.com/user-attachments/assets/2333465b-d6d8-4800-89f8-d9038dd8cb95)
+
+
+### Left Half Pyramid Capital Char
+
+Link - [code](https://github.com/InfinitySource/JAVA/blob/5843fdc3783264c91e899d4a463fdcbb0c414ddf/AllPatternsProblems/src/AllPatternsMethods/LeftHalfPyramid.java#L65)
+
+![java8](https://github.com/user-attachments/assets/fb009824-2d00-4868-8992-8935f2e39ba7)
+
+### Reverse Left Half Pyramid Capital Char
+
+Link - [code](https://github.com/InfinitySource/JAVA/blob/5843fdc3783264c91e899d4a463fdcbb0c414ddf/AllPatternsProblems/src/AllPatternsMethods/ReverseLeftHalfPyramid.java#L22)
+
+![java9](https://github.com/user-attachments/assets/0986ba20-c403-4a5e-8797-8b61eef91b66)
+
+
 ## Pattterns using if else statement
 
 ### Patterns
