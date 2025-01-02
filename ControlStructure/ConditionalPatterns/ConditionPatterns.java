@@ -171,7 +171,9 @@ public class ConditionPatterns {
                 }
 
             }
+            // new line
             System.out.println();
+            
         }
 
     }
