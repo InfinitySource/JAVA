@@ -31,18 +31,19 @@ Link : [code](https://github.com/InfiniteCoderX/JAVA/blob/e44d1d000480994213aae9
 Link : [code](https://github.com/InfiniteCoderX/JAVA/blob/e44d1d000480994213aae9efd1a3e73f944dcca8/JAVA/PatternsAllProblems/src/AllPatternsMethods/CounterPatterns.java)
 
 ![java4](https://github.com/user-attachments/assets/59273e5d-f46b-4951-95f6-a834c965d537)
+
+Link - [code](https://github.com/InfinitySource/JAVA/blob/e44d1d000480994213aae9efd1a3e73f944dcca8/JAVA/PatternsAllProblems/src/AllPatternsMethods/CounterPatterns.java#L428)
+
 ![java5](https://github.com/user-attachments/assets/2660c2f9-c2b0-450d-8519-d4df89208539)
 
 
-## If Else With Pattern
+## Pattterns using if else statement
 
-### Que 1 -
-12345 <br>
-12344 <br>
-12333 <br>
-12222 <br>
-11111 <br>
+### Patterns
 
-Link - [Code](https://github.com/InfiniteCoderX/JAVA/blob/c3f05530ac170d96e8a2669341e7437ff069ca44/ControlStructure/TernaryOperator/Prog1.java#L45) 
+Link - [Code](https://github.com/InfinitySource/JAVA/blob/bfa5cb41d172d15e8d6787eaed49c400d3ebd325/ControlStructure/ConditionalPatterns/ConditionPatterns.java#L19) 
+
+![java10](https://github.com/user-attachments/assets/8e774e96-2e3d-47c8-81a4-374750a826f6)
+
 
 
