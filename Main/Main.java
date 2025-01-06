@@ -1,14 +1,22 @@
 
 // import java.util.regex.Pattern;
 import AllPatternsMethods.SquarePattern;
-import If_else_nested_if_else.Program1;
+import If_else_nested_if_else.TowVariableNestedIfElse;
+import PascalConditionPatterns.RightPascalTriangle;
+import If_else_nested_if_else.ThreeVariableNestedIfElse;
+import If_else_nested_if_else.FourVariableNestedIfElse;
+import If_else_nested_if_else.FiveVariableNestedIfElse;
 import AllPatternsMethods.CounterPatterns;
 import AllPatternsMethods.LeftHalfPyramid;
 import AllPatternsMethods.RightHalfPyramid;
 import AllPatternsMethods.ReverseRightHalfPyramid;
 import AllPatternsMethods.ReverseLeftHalfPyramid;
-import TernaryOperator.Prog1;
+import TernaryOperator.Ternary;
 import ConditionalPatterns.ConditionPatterns;
+import PascalConditionPatterns.RightPascalTriangle;
+import PascalConditionPatterns.LeftPascalTriangles;
+import KPatterns.*;
+import TrianglePatterns.*;
 
 // import AllPatternsMethods.SquarePatterns
 
@@ -76,6 +84,7 @@ public class Main {
         // LeftHalfPyramid.LeftHalfPyramidCapitalChar10(5);
         // LeftHalfPyramid.LeftHalfPyramidCapitalChar11(5);
         
+        
         // Reverse Left Half Pyramid Capital Char
         
         // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidStar(5);
@@ -125,8 +134,9 @@ public class Main {
         // CounterPatterns.CounterPattern22(5);
         // CounterPatterns.CounterPattern23(5);
 
-        // Reverse Left Half Pyramid
 
+        // Reverse Left Half Pyramid
+        
         // CounterPatterns.CounterPattern24(5);
         // CounterPatterns.CounterPattern25(5);
         // CounterPatterns.CounterPattern26(5);
@@ -170,16 +180,22 @@ public class Main {
 
 
 
-        //If else 
+        //If else
+        // TowVariableNestedIfElse.TowVariable(50, 30);
+        // ThreeVariableNestedIfElse.ThreeVariable(200, 30, 50);
+        // FourVariableNestedIfElse.FourVariable(200, 30, 50, 300);
+        // FiveVariableNestedIfElse.FiveVariable(200, 30, 50, 200,300);
 
 
         //Ternary Operator
         
-        // Prog1.IfelseForAB(10, 20);
-        // Prog1.IfelseForABC(100,400, 534);
-        // Prog1.IfelseForABCD(12340,1233, 28736, 310);
-        // Prog1.IfelseForABCDE(45,1, 32, 43, 65);
+        // Ternary.TrenaryForAB(10, 20);
+        // Ternary.TrenaryForABC(100,400, 534);
+        // Ternary.TrenaryForABCD(12340,1233, 28736, 310);
+        // Ternary.TrenaryForABCDE(45,1, 32, 43, 65);
         
+
+
         // HW que
         // ConditionPatterns.ConditionQueHW(5);
         // ConditionPatterns.ConditionQue1(5);
@@ -189,8 +205,76 @@ public class Main {
         // ConditionPatterns.ConditionQue5(5);
         // ConditionPatterns.ConditionQue6(5);
         // ConditionPatterns.ConditionQue7(5);
-        ConditionPatterns.ConditionQue8(5);
+        // ConditionPatterns.ConditionQue8(5);
 
+
+
+
+        // Pascal Triangle
+
+        // Right Pascal Triangle Pattern
+
+        // RightPascalTriangle.RightPascalPattern1(5);
+        // RightPascalTriangle.RightPascalPattern2(5);
+        // RightPascalTriangle.RightPascalPattern3(5);
+        // RightPascalTriangle.RightPascalPattern4(5);
+        // RightPascalTriangle.RightPascalPattern5(5);
+        // RightPascalTriangle.RightPascalPattern6(5);
+        // RightPascalTriangle.RightPascalPattern7(5);
+        // RightPascalTriangle.RightPascalPattern8(5);
+        // RightPascalTriangle.RightPascalPattern9(5);
+        // RightPascalTriangle.RightPascalPattern10(5);
+        // RightPascalTriangle.RightPascalPattern11(5);
+
+
+        // Left Pascal Triangle Pattern
+        // LeftPascalTriangles.LeftPascalTriangle1(5);
+        // LeftPascalTriangles.LeftPascalTriangle2(5);
+        // LeftPascalTriangles.LeftPascalTriangle3(5);
+        // LeftPascalTriangles.LeftPascalTriangle4(5);
+        // LeftPascalTriangles.LeftPascalTriangle5(5);
+        // LeftPascalTriangles.LeftPascalTriangle6(5);
+        // LeftPascalTriangles.LeftPascalTriangle7(5);
+        // LeftPascalTriangles.LeftPascalTriangle8(5);
+        // LeftPascalTriangles.LeftPascalTriangle9(5);
+        // LeftPascalTriangles.LeftPascalTriangle10(5);
+        // LeftPascalTriangles.LeftPascalTriangle11(5);
+        // LeftPascalTriangles.LeftPascalTriangle12(5);
+        // LeftPascalTriangles.LeftPascalTriangle13(5);
+        
+        
+        // K Pattern
+
+        // Right K Patterns
+
+        // RightKPatterns.RightKPatternUsingFourForLoop(5);
+        // RightKPatterns.RightKPattern1(5);
+        // RightKPatterns.RightKPattern2(5);
+        // RightKPatterns.RightKPattern3(5);
+        // RightKPatterns.RightKPattern4(5);
+        // RightKPatterns.RightKPattern5(5);
+        // RightKPatterns.RightKPattern6(5);
+        // RightKPatterns.RightKPattern7(5);
+        // RightKPatterns.RightKPattern8(5);
+        // RightKPatterns.RightKPattern9(5);
+        // RightKPatterns.RightKPattern10(5);
+        // RightKPatterns.RightKPattern11(5);
+
+        // Left K Pattern
+
+        
+
+
+        // Triangle Patterns
+
+        // Triangle
+        // TrianglePattern.TriangleStar(5);
+        // TrianglePattern.Triangle1(5);
+        // TrianglePattern.Triangle2(5);
+        // TrianglePattern.Triangle3(5);
+        // TrianglePattern.Triangle4(5);
+        // TrianglePattern.Triangle5(5);
+        TrianglePattern.Triangle6(5);
 
 
         
