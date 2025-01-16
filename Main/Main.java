@@ -341,7 +341,7 @@ public class Main {
         // System.out.println(allMethods.findSecondLastNumber(1234));
         // System.out.println(allMethods.findfirstNumber(1234));
         // System.out.println(allMethods.placeLastNoToFirst(72645));
-        System.out.println(allMethods.addSumtoLast(1234));
+        // System.out.println(allMethods.addSumtoLast(1234));
 
 
 
