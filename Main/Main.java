@@ -17,9 +17,11 @@ import PascalConditionPatterns.RightPascalTriangle;
 import PascalConditionPatterns.LeftPascalTriangles;
 import KPatterns.*;
 import TrianglePatterns.*;
-
+import TrianglePatterns.SandglassAndDiamondPatterns;
+import SpaceProblems.SpaceProblems;
+import OOP.MethodsForPractice.Square;
+import OOP.MethodsForPractice.AllMethods;
 // import AllPatternsMethods.SquarePatterns
-
 
 public class Main {
     public static void main(String[] args) {
@@ -62,16 +64,13 @@ public class Main {
         // RightHalfPyramid.SpaceProb(5);
         // RightHalfPyramid.OneTwoThree(5);
 
-
-
         // Left Half Pyramid
 
         // LeftHalfPyramid.LeftHalfStarPyramid(5);
         // LeftHalfPyramid.ReverseLeftHalfStarPyramid(5);
-        
-        
+
         // Left Half Pyramid Capital Char
-        
+
         // LeftHalfPyramid.LeftHalfPyramidCapitalChar1(5);
         // LeftHalfPyramid.LeftHalfPyramidCapitalChar2(5);
         // LeftHalfPyramid.LeftHalfPyramidCapitalChar3(5);
@@ -83,10 +82,9 @@ public class Main {
         // LeftHalfPyramid.LeftHalfPyramidCapitalChar9(5);
         // LeftHalfPyramid.LeftHalfPyramidCapitalChar10(5);
         // LeftHalfPyramid.LeftHalfPyramidCapitalChar11(5);
-        
-        
+
         // Reverse Left Half Pyramid Capital Char
-        
+
         // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidStar(5);
         // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar1(5);
         // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar2(5);
@@ -100,9 +98,7 @@ public class Main {
         // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar10(5);
         // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar11(5);
         // ReverseLeftHalfPyramid.ReverseLeftHalfPyramidCapitalChar12(5);
-        
 
-        
         // Counter Patterns
 
         // RightHalfNumberPyramid
@@ -134,9 +130,8 @@ public class Main {
         // CounterPatterns.CounterPattern22(5);
         // CounterPatterns.CounterPattern23(5);
 
-
         // Reverse Left Half Pyramid
-        
+
         // CounterPatterns.CounterPattern24(5);
         // CounterPatterns.CounterPattern25(5);
         // CounterPatterns.CounterPattern26(5);
@@ -159,8 +154,6 @@ public class Main {
         // CounterPatterns.CounterPattern42(5);
         // CounterPatterns.CounterPattern43(5);
 
-
-
         // Reverse Left Half Pyramid Capital Char
 
         // ReverseRightHalfPyramid.ReverseRightHalfStarPyramid(5);
@@ -177,24 +170,18 @@ public class Main {
         // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar11(5);
         // ReverseRightHalfPyramid.ReverseRightHalfPyramidCapitalChar12(5);
 
-
-
-
-        //If else
+        // If else
         // TowVariableNestedIfElse.TowVariable(50, 30);
         // ThreeVariableNestedIfElse.ThreeVariable(200, 30, 50);
         // FourVariableNestedIfElse.FourVariable(200, 30, 50, 300);
         // FiveVariableNestedIfElse.FiveVariable(200, 30, 50, 200,300);
 
+        // Ternary Operator
 
-        //Ternary Operator
-        
         // Ternary.TrenaryForAB(10, 20);
         // Ternary.TrenaryForABC(100,400, 534);
         // Ternary.TrenaryForABCD(12340,1233, 28736, 310);
         // Ternary.TrenaryForABCDE(45,1, 32, 43, 65);
-        
-
 
         // HW que
         // ConditionPatterns.ConditionQueHW(5);
@@ -206,9 +193,6 @@ public class Main {
         // ConditionPatterns.ConditionQue6(5);
         // ConditionPatterns.ConditionQue7(5);
         // ConditionPatterns.ConditionQue8(5);
-
-
-
 
         // Pascal Triangle
 
@@ -226,7 +210,6 @@ public class Main {
         // RightPascalTriangle.RightPascalPattern10(5);
         // RightPascalTriangle.RightPascalPattern11(5);
 
-
         // Left Pascal Triangle Pattern
         // LeftPascalTriangles.LeftPascalTriangle1(5);
         // LeftPascalTriangles.LeftPascalTriangle2(5);
@@ -241,8 +224,7 @@ public class Main {
         // LeftPascalTriangles.LeftPascalTriangle11(5);
         // LeftPascalTriangles.LeftPascalTriangle12(5);
         // LeftPascalTriangles.LeftPascalTriangle13(5);
-        
-        
+
         // K Pattern
 
         // Right K Patterns
@@ -262,7 +244,21 @@ public class Main {
 
         // Left K Pattern
 
-        
+        // LeftKPattern.LeftKPattern1(5);
+        // LeftKPattern.LeftKPattern2(5);
+        // LeftKPattern.LeftKPattern3(5);
+        // LeftKPattern.LeftKPattern4(5);
+        // LeftKPattern.LeftKPattern5(5);
+        // LeftKPattern.LeftKPattern6(5);
+        // LeftKPattern.LeftKPattern7(5);
+        // LeftKPattern.LeftKPattern8(5);
+        // LeftKPattern.LeftKPattern9(5);
+        // LeftKPattern.LeftKPattern10(5);
+        // LeftKPattern.LeftKPattern11(5);
+        // LeftKPattern.LeftKPattern12(5);
+        // LeftKPattern.LeftKPattern13(5);
+
+
 
 
         // Triangle Patterns
@@ -274,9 +270,84 @@ public class Main {
         // TrianglePattern.Triangle3(5);
         // TrianglePattern.Triangle4(5);
         // TrianglePattern.Triangle5(5);
-        TrianglePattern.Triangle6(5);
+        // TrianglePattern.Triangle6(5);
+        // TrianglePattern.Triangle7(5);
+        // TrianglePattern.Triangle8(5);
+        // TrianglePattern.Triangle9(5);
+        // TrianglePattern.Triangle10(5);
+        // TrianglePattern.Triangle11(5);
+        // TrianglePattern.Triangle12(5);
+        // TrianglePattern.Triangle13(5);
+
+        // Reverse Triangle Patterns
+        // ReverseTrianglePattern.ReverseTriangleStar(5);
+        // ReverseTrianglePattern.ReverseTriangle1(5);
+        // ReverseTrianglePattern.ReverseTriangle2(5);
+        // ReverseTrianglePattern.ReverseTriangle3(5);
+        // ReverseTrianglePattern.ReverseTriangle4(5);
+        // ReverseTrianglePattern.ReverseTriangle5(5);
+        // ReverseTrianglePattern.ReverseTriangle6(5);
+        // ReverseTrianglePattern.ReverseTriangle7(5);
+        // ReverseTrianglePattern.ReverseTriangle8(5);
+        // ReverseTrianglePattern.ReverseTriangle9(5);
+        // ReverseTrianglePattern.ReverseTriangle10(5);
+        // ReverseTrianglePattern.ReverseTriangle11(5);
+        // ReverseTrianglePattern.ReverseTriangle12(5);
+        // ReverseTrianglePattern.ReverseTriangle13(5);
+
+        // Sandglass and Diamond Patterns
+
+        // SandglassAndDiamondPatterns.Sandglass1(5);
+        // SandglassAndDiamondPatterns.Diamond2(5);
+        // SandglassAndDiamondPatterns.Sandglass3(5);
+        // SandglassAndDiamondPatterns.Diamond4(5);
+        // SandglassAndDiamondPatterns.Sandglass5(5);
+        // SandglassAndDiamondPatterns.Sandglass6(5);
+        // SandglassAndDiamondPatterns.Sandglass7(5);
+        // SandglassAndDiamondPatterns.Diamond8(5);
+        // SandglassAndDiamondPatterns.Sandglass9(5);
+        // SandglassAndDiamondPatterns.Sandglass10(5);
+
+        // Space problems
+
+        // SpaceProblems.SpaceProblem1(5);
+        // SpaceProblems.SpaceProblem2(5);
+        // SpaceProblems.SpaceProblem3(5);
+        // SpaceProblems.SpaceProblem4(5);
+        // SpaceProblems.SpaceProblem5(5);
+        // SpaceProblems.SpaceProblem6(5);
+        // SpaceProblems.SpaceProblem7(5);
+        // SpaceProblems.SpaceProblem8(5);
+        // SpaceProblems.SpaceProblem9(5);
+        // SpaceProblems.SpaceProblem10(5);
 
 
+
+        // OOP(object oriented programming )
         
+        // Methods
+        
+        // Square Method
+        Square square = new Square();
+        // square.SquareUsingLV();
+        // square.SquareWitharguments(7);
+        // square.SquareReturnNoArguments();
+        // square.SquareReturnWithArguments(9);
+
+        // HW
+        AllMethods allMethods = new AllMethods();
+
+        // System.out.println(allMethods.findLastNumber(1234));
+        // System.out.println(allMethods.findSecondLastNumber(1234));
+        // System.out.println(allMethods.findfirstNumber(1234));
+        // System.out.println(allMethods.placeLastNoToFirst(72645));
+        System.out.println(allMethods.addSumtoLast(1234));
+
+
+
+
+        //
+
+
     }
 }
