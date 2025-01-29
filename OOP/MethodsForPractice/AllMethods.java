@@ -9,42 +9,62 @@ public class AllMethods {
 
 
     public int findSecondLastNumber(int n){
-
-
-
-        while (n >= 100) {
-            n = n % 100;
-        }
-        return n;
+        return (n/10) % 10;
     }
+
 
     public int findfirstNumber(int n){
 
-        while (n > 1) {
+        while (n >= 10) {
             n = n / 10;
         }
         return n;
     }
 
-    // public int place(int n){
-        
-    //     int lastNumber = n % 10;
-    //     int remainNumber = n / 10;
-    //     int length = 1;
+    public int findSecondDigitOfNumber(int n){
+        while(n >= 100){
+            n /= 10;
+        }
+        return n % 10;
+    }
 
-    //     while (n > 10) {
-    //         length = length * 10;
-    //         n = n / 10;
-    //     }
+    public int findSumOfAllNumber(int n){
+        int sum = 0;
 
-    //     lastNumber = lastNumber * length;
-    //     lastNumber = lastNumber + remainNumber;
+        while(n != 0){
+            sum += n%10;
+            n /= 10;
+        }
+        return sum;
+    }
 
-    //     return lastNumber;
+    public double findAvgOfDigits(int n){
+       int count = 0;
+       int sum = 0;
+       while (n != 0) {
+        sum = sum + n%10;
+        count++;
+        n = n/10;
 
-    // }
+       }
+       return sum / count;
+    }
 
-    
+    public int shiftFirstToLast(int n){
+        int length = 1;
+        int temp = n;
+
+        while (temp >= 10) {
+            length *= 10;
+            temp /= 10;
+
+        }
+        n %= length;
+        n *= 10;
+        n += temp;
+        return n;
+    }
+
     public int placeLastNoToFirst(int n){
         
         int lastNumber = n % 10;
@@ -63,32 +83,136 @@ public class AllMethods {
 
     }
 
-    // public int addSumtoLast(int n){
+    public int placeFirstToLast(int n){
         
-    //     int sum = 0;
-    //     int temp = n;
-    //     int length = 1;
+        int sum = 0;
+        int temp = n;
+
+        while(temp != 0){
+
+            sum = sum + temp%10;
+            temp /= 10; 
+        }
+
+        if(sum < 10){
+            n *= 10;
+        }else{
+            n *=100;
+        }
+
+        return n + sum;
+
+    }
 
 
-    //     while (n != 0) {
 
-    //         int lastNum = n % 10;
-    //         sum += lastNum;
+    public int ReverseNumber(int n){
+        
+        // int sum = 0;
+        // while (n != 0) {
+            
+        //     sum *= 10;
+        //     sum += n%10;
+        //     n = n/10;
 
-    //         n /= 10;
-    //     }
-    //     int updatedSum = sum;
-    //     // int addZero = 1;
-    //     while (temp > 1) {
-    //         length = length * 10;
-    //         temp = temp / 10;
-    //     }
+        // }
+        // return sum;
 
-    //     int res = n + sum;
+        int revNum = 0;
 
+        while(n != 0){
+            int lastNum = n % 10;
+            revNum = revNum*10 + lastNum;
+            n = n/10;   
+        }
+        return revNum;
 
-    //     return sum ;
+    }
+    
+    public boolean palindromeNumber(int n){
+        
+        return (ReverseNumber(n) == n) ? true : false;
 
-    // }
+    }
 
+    public int nthPalindromeNumber(int n){
+        
+        int count = 0;
+        int a = 0;
+        while(true){    
+            if(palindromeNumber(a)){
+                count++;
+            }
+            if(count == n){
+                break;
+            }
+            a++;
+        }
+        return a;
+
+    }
+     
+    public boolean primeOrNot(int n){
+
+        boolean isPrime = true;
+
+        if(n == 1){
+            // return "Not Prime Number";
+            return false;
+        }
+        
+        for(int i = 2; i <= n/2; i++){
+            if(n % i == 0){
+                isPrime = false;
+                break;
+            }
+        }
+
+        if(isPrime){
+            // return "Prime Number";
+            return true;
+        }else{
+            // return "Not Prime Number";
+            return false;
+        }
+
+    }
+
+    public boolean StrongOrNotStrongNumber(int n){
+        
+        int temp = n;
+        
+        int sum = 0;
+        int factor = 1;
+        int factorSum = 0;
+        while (temp != 0) {
+            int lastNum = temp %10;
+
+            for(int i = lastNum; i > 0; i--){
+                factorSum = factor * i;
+            }
+
+            sum = sum + factorSum;
+            temp = temp / 10;
+        }
+
+        boolean result = (sum == n)? true : false;
+       
+        return result;
+
+    }
+
+    
+    boolean checkPalinPrime(int n){
+     
+        
+        boolean primeCheck = primeOrNot(n);
+        boolean palindromeCheck = palindromeNumber(n);
+
+        if(palindromeCheck && primeCheck){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }

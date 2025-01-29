@@ -6,6 +6,9 @@ import PascalConditionPatterns.RightPascalTriangle;
 import If_else_nested_if_else.ThreeVariableNestedIfElse;
 import If_else_nested_if_else.FourVariableNestedIfElse;
 import If_else_nested_if_else.FiveVariableNestedIfElse;
+
+// import java.lang.reflect.Array;
+
 import AllPatternsMethods.CounterPatterns;
 import AllPatternsMethods.LeftHalfPyramid;
 import AllPatternsMethods.RightHalfPyramid;
@@ -21,6 +24,8 @@ import TrianglePatterns.SandglassAndDiamondPatterns;
 import SpaceProblems.SpaceProblems;
 import OOP.MethodsForPractice.Square;
 import OOP.MethodsForPractice.AllMethods;
+import OOP.ar;
+import OOP.ArrayMethods.*;
 // import AllPatternsMethods.SquarePatterns
 
 public class Main {
@@ -340,13 +345,29 @@ public class Main {
         // System.out.println(allMethods.findLastNumber(1234));
         // System.out.println(allMethods.findSecondLastNumber(1234));
         // System.out.println(allMethods.findfirstNumber(1234));
-        // System.out.println(allMethods.placeLastNoToFirst(72645));
+        // System.out.println(allMethods.findSecondDigitOfNumber(1234));
+        // System.out.println(allMethods.findSumOfAllNumber(1234));
+        // System.out.println(allMethods.findAvgOfDigits(1765));
+        // System.out.println(allMethods.shiftFirstToLast(1765));
+        // System.out.println(allMethods.placeLastNoToFirst(726487495));
         // System.out.println(allMethods.addSumtoLast(1234));
+        // System.out.println(allMethods.ReverseNumber(7336));
+        // System.out.println(allMethods.placeFirstToLast(17474));
+        // System.out.println(allMethods.palindromeNumber(121));
+        // System.out.println(allMethods.nthPalindromeNumber(53));
+        // System.out.println(allMethods.primeOrNot(200));
+        // System.out.println(allMethods.StrongOrNotStrongNumber(145));
+        // System.out.println(allMethods.palindromeNumber());
+
+        // Array problems
+        int[] arr = {10, 20,25,30, 27, 29};
+        // System.out.println(ArrayMethods.avgOfOddElement(arr));
+        System.out.println(ArrayMethods.avgOfOddAndEvenElement(arr));
+        // ArrayMethods.greaterNumThanAvg(arr);
+        // ArrayMethods.replaceOddEleWithFirstDigit(arr);
+        // ArrayMethods.replaceEvenWithSumOfThatDigit(arr);
 
 
-
-
-        //
 
 
     }
