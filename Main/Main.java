@@ -24,9 +24,8 @@ import TrianglePatterns.SandglassAndDiamondPatterns;
 import SpaceProblems.SpaceProblems;
 import OOP.MethodsForPractice.Square;
 import OOP.MethodsForPractice.AllMethods;
-import OOP.ar;
-import OOP.ArrayMethods.*;
-// import AllPatternsMethods.SquarePatterns
+import OOP.ArraysInJava.*;
+import OOP.Strings.ProblemsOnStrings;
 
 public class Main {
     public static void main(String[] args) {
@@ -359,13 +358,52 @@ public class Main {
         // System.out.println(allMethods.StrongOrNotStrongNumber(145));
         // System.out.println(allMethods.palindromeNumber());
 
+        
         // Array problems
-        int[] arr = {10, 20,25,30, 27, 29};
+        // int[] arr = {10, 20,25,30, 27, 29};
+        int[] arr1 = {10 , 20, 30};
+        int[] arr2 = {10 , 20, 30, 40,25, 5};
+        int[] arr3 = {5,3,4};
         // System.out.println(ArrayMethods.avgOfOddElement(arr));
-        System.out.println(ArrayMethods.avgOfOddAndEvenElement(arr));
+        // System.out.println(ArrayMethods.avgOfOddAndEvenElement(arr));
         // ArrayMethods.greaterNumThanAvg(arr);
         // ArrayMethods.replaceOddEleWithFirstDigit(arr);
         // ArrayMethods.replaceEvenWithSumOfThatDigit(arr);
+        // ArrayMethods.shiftFirstToLast(arr);
+        // ArrayMethods.shiftLastToFirst(arr);
+        // ArrayMethods.swapNumberLastToFirst(arr);
+        // ArrayMethods.swapNumberLastToFirstWithoutThirdVar(arr);
+        // ArrayMethods.shiftFirstToLastWithoutThirdVar(arr);
+        // ArrayMethods.shiftLastToFirstWithoutThirdVar(arr);
+        // ArrayMethods.reverseArrayWithoutThirdVar(arr1);
+        // ArrayMethods.findSumOfElementSameAsTarget(arr2);
+        // ArrayMethods.mergeTwoArrInOneByOne(arr1, arr2);
+        // ArrayMethods.toFixAnArray(arr3);
+//        ArrayMethods.toFixAnArray(arr3);
+
+
+
+
+
+
+
+        // String
+
+//        ProblemsOnStrings.usingLoopFirstToLast();
+//        ProblemsOnStrings.usingStringBuilder();
+//        ProblemsOnStrings.usingStringBuilderAndSubstring()
+//        ProblemsOnStrings.swapFirstToLastChar();
+//        ProblemsOnStrings.countReverseOrderInBetweenEachEle();
+//        ProblemsOnStrings.countNumberOfVowelsM1();
+//        ProblemsOnStrings.countNumberOfVowelsM2();
+//        ProblemsOnStrings.makeProgram();
+//        ProblemsOnStrings.vowelsAtLastOfString();
+//        ProblemsOnStrings.sortArrayInAscOrder();
+//        ProblemsOnStrings.replaceVowWith1And2();
+//        ProblemsOnStrings.countNumberOfWords();
+        ProblemsOnStrings.reverseEachWordsInString();
+
+
 
 
 
