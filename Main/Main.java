@@ -401,7 +401,8 @@ public class Main {
 //        ProblemsOnStrings.sortArrayInAscOrder();
 //        ProblemsOnStrings.replaceVowWith1And2();
 //        ProblemsOnStrings.countNumberOfWords();
-        ProblemsOnStrings.reverseEachWordsInString();
+//        ProblemsOnStrings.reverseEachWordsInString();
+        ProblemsOnStrings.findLargesString();
 
 
 

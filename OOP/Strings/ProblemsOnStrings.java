@@ -243,9 +243,31 @@ public class ProblemsOnStrings {
         System.out.println(count);
     }
 
+
+    // WAP to find the largest length of string in sentence
+    public static void findLargesString(){
+        String s1 = "welcome to international airport";
+        String[] s2 = s1.split(" ");
+        StringBuilder sb = new StringBuilder();
+        int lrg = -1;
+        for(int i =0; i<s2.length;i++){
+//            int temp = s2[i].length();
+            if(s2[i].length() > lrg){
+                lrg = s2[i].length();
+            }
+        }
+        for(int i=0;i < s2.length;i++){
+            if(lrg == s2[i].length()){
+                System.out.println(s2[i]);
+            }
+        }
+
+//        System.out.println(sb.append(lrg));
+
+    }
+
+
     // reverse and each word in String
-
-
 
     public static void reverseEachWordsInString(){
         String s1 = "Hello I am Java Developer";
@@ -253,14 +275,16 @@ public class ProblemsOnStrings {
         String[] s2 = s1.split(" ");
         StringBuilder sb = new StringBuilder();
         for(int i =0; i < s2.length;i++){
-            for(int j = 0; j < s2[i].length(); j++){
-                System.out.println(s2[i].charAt(j));
+            String temp = s2[i];
+            StringBuilder revStr = new StringBuilder(temp);
+            if(temp.length() !=0){
+                 sb.append(revStr.reverse());
+            }
+            if(i < s1.length()){
+                sb.append(" ");
             }
         }
-
-//        System.out.println(Arrays.toString(s1.split(" ")));
-
-
+        System.out.println(sb);
     }
 
 
