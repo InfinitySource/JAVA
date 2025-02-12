@@ -289,6 +289,87 @@ public class ProblemsOnStrings {
 
 
 
+    // WAP to shift first char to last from each word of string.
+    // inp: hello i am java developer
+    // op: elloh i ma avaj eveloperd
+
+    public static void shiftFirstCharToLastForEachWord(){
+        String s1 = "hello i am java developer";
+        String[] s2 = s1.split(" ");
+        StringBuilder sb = new StringBuilder();
+        System.out.println(sb);
+        for(int i =0;i < s2.length; i++){
+            if(s2[i].length() != 0){
+                sb.append(s2[i].substring(1));
+                sb.append(s2[i].charAt(0));
+            }
+
+            if(i < s2.length -1){
+                sb.append(" ");
+            }
+
+        }
+        System.out.println(sb);
+    }
+
+
+    // WAP to delete first char from each word add it to last of string
+    // inp : hello i am java developer
+    // op : ello m ava eveloper hiajd
+
+    public static void deleteFirstAndAddItToLastOfString(){
+        String s1 = "hello i am java developer";
+        String[] s2 = s1.split(" ");
+        StringBuilder sb = new StringBuilder();
+        StringBuilder last = new StringBuilder();
+        for(int i =0; i < s2.length;i++){
+
+            sb.append(s2[i].substring(1));
+            last.append(s2[i].charAt(0));
+            sb.append(" ");
+        }
+        System.out.println(sb.append(last));
+    }
+
+    // WAP to sort a words lexicographycally
+    // inp: hello i am java developer
+    // opt: am developer hello i java
+
+    public static void sortWordsLexicographycally(){
+        String s1 = "hello i am java developer";
+        String[] s2 = s1.split(" ");
+        StringBuilder sb = new StringBuilder();
+        Arrays.sort(s2);
+        for(int i =0; i < s2.length;i++){
+            sb.append(s2[i]).append(" ");
+        }
+//        System.out.println(Arrays.toString(s2));
+        System.out.println(sb);
+    }
+
+
+
+    // WAP to sort words lengthwise
+
+    public static void sortWordsLengthwise(){
+        String s1 = "hello i am java developer";
+        String[] s2 = s1.split(" ");
+        StringBuilder sb = new StringBuilder();
+//        for(int i =0; i< s2.length;i++){
+//            int size = s2[i].length();
+//
+////            Arrays.sort(s2);
+//
+////            System.out.println(s2[i].length());
+//        }
+    }
+
+
+
+
+
+
+
 
 
 

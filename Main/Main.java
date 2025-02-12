@@ -401,8 +401,12 @@ public class Main {
 //        ProblemsOnStrings.sortArrayInAscOrder();
 //        ProblemsOnStrings.replaceVowWith1And2();
 //        ProblemsOnStrings.countNumberOfWords();
+//        ProblemsOnStrings.findLargesString();
 //        ProblemsOnStrings.reverseEachWordsInString();
-        ProblemsOnStrings.findLargesString();
+//        ProblemsOnStrings.shiftFirstCharToLastForEachWord();
+//        ProblemsOnStrings.deleteFirstAndAddItToLastOfString();
+//        ProblemsOnStrings.sortWordsLexicographycally();
+        ProblemsOnStrings.sortWordsLengthwise();
 
 
 
