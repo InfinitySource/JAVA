@@ -406,7 +406,11 @@ public class Main {
 //        ProblemsOnStrings.shiftFirstCharToLastForEachWord();
 //        ProblemsOnStrings.deleteFirstAndAddItToLastOfString();
 //        ProblemsOnStrings.sortWordsLexicographycally();
-        ProblemsOnStrings.sortWordsLengthwise();
+//        ProblemsOnStrings.sortWordsLengthwise();
+//        ProblemsOnStrings.swapFirstandLastCharOfEachWord();
+//        ProblemsOnStrings.printStringCharByChar();
+//        ProblemsOnStrings.sortEachWord();
+        ProblemsOnStrings.findPalindromeWord();
 
 
 

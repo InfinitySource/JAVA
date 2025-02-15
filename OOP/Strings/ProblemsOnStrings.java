@@ -355,26 +355,112 @@ public class ProblemsOnStrings {
         String s1 = "hello i am java developer";
         String[] s2 = s1.split(" ");
         StringBuilder sb = new StringBuilder();
-//        for(int i =0; i< s2.length;i++){
-//            int size = s2[i].length();
-//
-////            Arrays.sort(s2);
-//
-////            System.out.println(s2[i].length());
-//        }
+        for(int i =0; i< s2.length;i++){
+            for(int j = i+1; j < s2.length; j++){
+
+                if(s2[i].length() > s2[j].length()){
+                String temp = s2[i];
+                    s2[i] = s2[j];
+                    s2[j] = temp;
+                }
+            }
+        }
+        for(int i=0; i< s2.length;i++){
+            sb.append(s2[i]);
+            if(i < s2.length){
+                sb.append(" ");
+            }
+        }
+        System.out.println(sb);
     }
 
 
 
+    // WAP program to swap first and last char of each word form sentence
+    // intput : "hello i am java developer"
+    // intput : "oellh i am aavj reveloped"
+
+    public static void swapFirstandLastCharOfEachWord(){
+        String s1 = "hello i am java developer";
+        String[] s2 = s1.split(" ");
+        StringBuilder sb = new StringBuilder();
+        for(int i =0; i< s2.length;i++){
+            String temp = s2[i];
+            if(temp.length() > 1){
+                sb.append(temp.charAt(temp.length() -1));
+                sb.append(temp.substring(1,temp.length()-1));
+                sb.append(temp.charAt(0));
+            }else {
+            sb.append(temp.charAt(temp.length()-1));
+            }
+            if(i < s2.length){
+                sb.append(" ");
+            }
+        }
+        System.out.println(sb);
+    }
 
 
 
+    // WAP to print
+    // inp: Engineer
+    // opt:
+    // E
+    // En
+    // Eng
+    // Engi
+    // Engin
+    // Engine
+    // Enginee
+    // Engineer
+
+    public static void printStringCharByChar(){
+        String s1 = "Engineer";
+        for(int i =0;i< s1.length();i++){
+            System.out.println(s1.substring(0,i+1));
+        }
+    }
+
+
+    // WAP to sort each word
+
+
+    public static void sortEachWord(){
+        String s1 = "hello i am java developer";
+        String[] s2 = s1.split(" ");
+        StringBuilder sb = new StringBuilder();
+
+        for(int i =0; i < s2.length; i++){
+            String temp = s2[i];
+            char[] c = temp.toCharArray();
+            Arrays.sort(c);
+            sb.append(c);
+            if(i < s2.length -1){
+                sb.append(" ");
+            }
+        }
+        System.out.println(sb);
+    }
 
 
 
+    // WAP to find palindrome word from the sentence
+    // inp : where is nayan and naman karan looking for him
+    // opt: nayan
+    //      naman
 
+    public static void findPalindromeWord(){
+        String s1 = "where is Nayan and naman karan looking for him";
+        String[] s2 = s1.split(" ");
 
-
+        for(int i = 0; i < s2.length; i++){
+            String temp = s2[i];
+            StringBuilder rev = new StringBuilder(temp);
+            if(temp.equalsIgnoreCase(rev.reverse().toString())){
+                System.out.println(temp);
+            }
+        }
+    }
 
 
 
