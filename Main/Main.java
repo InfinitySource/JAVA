@@ -1,31 +1,13 @@
 
 // import java.util.regex.Pattern;
-import AllPatternsMethods.SquarePattern;
-import If_else_nested_if_else.TowVariableNestedIfElse;
-import PascalConditionPatterns.RightPascalTriangle;
-import If_else_nested_if_else.ThreeVariableNestedIfElse;
-import If_else_nested_if_else.FourVariableNestedIfElse;
-import If_else_nested_if_else.FiveVariableNestedIfElse;
 
 // import java.lang.reflect.Array;
 
-import AllPatternsMethods.CounterPatterns;
-import AllPatternsMethods.LeftHalfPyramid;
-import AllPatternsMethods.RightHalfPyramid;
-import AllPatternsMethods.ReverseRightHalfPyramid;
-import AllPatternsMethods.ReverseLeftHalfPyramid;
-import TernaryOperator.Ternary;
-import ConditionalPatterns.ConditionPatterns;
-import PascalConditionPatterns.RightPascalTriangle;
-import PascalConditionPatterns.LeftPascalTriangles;
 import KPatterns.*;
 import TrianglePatterns.*;
-import TrianglePatterns.SandglassAndDiamondPatterns;
-import SpaceProblems.SpaceProblems;
-import OOP.MethodsForPractice.Square;
-import OOP.MethodsForPractice.AllMethods;
-import OOP.ArraysInJava.*;
-import OOP.Strings.ProblemsOnStrings;
+        import oop.MethodsForPractice.Square;
+import oop.MethodsForPractice.AllMethods;
+        import oop.Strings.ProblemsOnStrings;
 
 public class Main {
     public static void main(String[] args) {
@@ -357,6 +339,10 @@ public class Main {
         // System.out.println(allMethods.primeOrNot(200));
         // System.out.println(allMethods.StrongOrNotStrongNumber(145));
         // System.out.println(allMethods.palindromeNumber());
+//        System.out.println(allMethods.checkPerfectSquare(25));
+//        System.out.println(allMethods.checkPerfectCube(13));
+        System.out.println(allMethods.checkPalindromePrime(121));
+
 
         
         // Array problems
@@ -410,7 +396,7 @@ public class Main {
 //        ProblemsOnStrings.swapFirstandLastCharOfEachWord();
 //        ProblemsOnStrings.printStringCharByChar();
 //        ProblemsOnStrings.sortEachWord();
-        ProblemsOnStrings.findPalindromeWord();
+//        ProblemsOnStrings.findPalindromeWord();
 
 
 
