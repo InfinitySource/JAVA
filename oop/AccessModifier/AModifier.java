@@ -1,16 +1,15 @@
 package oop.AccessModifier;
 
-import oop.AccessModifier.AccessMInnerPackage.CheckAMScope;
 
 public class AModifier {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
+
         PublicM pm = new PublicM();
         DefaultM dm = new DefaultM();
         ProtectedM prom = new ProtectedM();
         PrivateM privm = new PrivateM();
-        CheckAMScope cams = new CheckAMScope();
 
 
         pm.display();
