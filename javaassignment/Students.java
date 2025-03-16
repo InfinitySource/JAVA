@@ -22,11 +22,11 @@ public class Students {
 
     public void setName(String name) {
 
-        if(name == null){
-            System.out.println("Name should not be empty");
-        }else{
+//        if(name == null){
+//            System.out.println("Name should not be empty");
+//        }else{
             this.name = name;
-        }
+//        }
 
     }
 
