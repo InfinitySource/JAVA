@@ -24,7 +24,7 @@ public class StartMethodInThreadClass {
 
 
 
-        // start(), run(), sleep(), join(), currentThread()
+        // start(), run(), sleep(), join(), currentThread(),
     }
 
 }
